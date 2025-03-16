@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  display: block; /* Change from flex */
+  min-width: 320px;
+  height: auto; /* Change from min-height: 100vh */
+  background-color: #f4f4f4; /* Match .home-container */
+}
+
+/* Optional: Reset root colors if needed */
+:root {
+  color: #213547;
+  background-color: #ffffff; 
+}

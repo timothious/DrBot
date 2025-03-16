@@ -1,0 +1,101 @@
+/* Profile Overlay */
+.profile-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Profile Container */
+.profile-container {
+    background: #1e1e2f;
+    padding: 30px;
+    border-radius: 12px;
+    width: 400px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+/* Close Button */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Profile Image Upload */
+.profile-upload {
+    display: block;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.upload-placeholder {
+    width: 150px;
+    height: 150px;
+    border: 2px dashed white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.upload-icon {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+/* File Input */
+.file-input {
+    display: none;
+}
+
+/* Button Styling */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.upload-button,
+.update-btn {
+    background-color: #4a90e2;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    font-size: 14px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.upload-button:hover,
+.update-btn:hover {
+    background-color: #357ab8;
+}
