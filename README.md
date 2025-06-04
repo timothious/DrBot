@@ -21,27 +21,6 @@ Node.js – Backend runtime environment
 Gemini API – Cancer-related AI question answering
 XAMPP – Local server for Apache & MySQL
 
-## Project Structure
-DrBot/
-├── Backend/              # Node.js backend server using Gemini API
-├── node_modules/
-├── public/
-├── src/
-│   ├── assets/           # Static assets like images
-│   ├── components/       # React page components
-│   │   ├── Styles/       # CSS/styling files
-│   │   ├── home.jsx      # Home page of the chatbot
-│   │   ├── Profile.jsx   # User profile page
-│   │   ├── Setting.jsx   # App settings page
-│   │   └── SignIn.jsx    # User sign-in page
-│   ├── api.js            # Handles API calls to the backend (Gemini API integration)
-│   ├── App.jsx           # Main application component
-│   ├── App.css           # Main CSS file
-│   └── index.css         # Global CSS styles
-├── .dist/                # Distribution/build files
-
-
-
 **Install and Start XAMPP**  
    Download and install XAMPP from the official website:  
    👉 [https://www.apachefriends.org/download.html]
@@ -51,3 +30,27 @@ DrBot/
 Ensure you have Node.js and npm installed.
 A valid Gemini API key is required in your backend.
 Frontend and backend run independently, so ensure both are active for full functionality.
+
+## Project Structure
+```bash
+   DrBot/
+   ├── Backend/              # Node.js backend server using Gemini API
+   ├── node_modules/
+   ├── public/
+   ├── src/
+   │   ├── assets/           # Static assets like images
+   │   ├── components/       # React page components
+   │   │   ├── Styles/       # CSS/styling files
+   │   │   ├── home.jsx      # Home page of the chatbot
+   │   │   ├── Profile.jsx   # User profile page
+   │   │   ├── Setting.jsx   # App settings page
+   │   │   └── SignIn.jsx    # User sign-in page
+   │   ├── api.js            # Handles API calls to the backend (Gemini API integration)
+   │   ├── App.jsx           # Main application component
+   │   ├── App.css           # Main CSS file
+   │   └── index.css         # Global CSS styles
+   ├── .dist/                # Distribution/build files
+
+
+
+
