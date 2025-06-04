@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const GEMINI_API_KEY = "AIzaSyD9ORI8Ye84AcjLR3oaC78jD2g7txgF62k"; // Store this securely (e.g., in a .env file)
+const GEMINI_API_KEY = "Placee Your Api"; // Store this securely (e.g., in a .env file)
 
 export const getGeminiResponse = async (userMessage) => {
   try {
