@@ -227,11 +227,15 @@
 
 .chat-input-container {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     gap: 10px;
     width: 100%;
     max-width: 800px;
     margin-top: auto;
+    position: absolute;
+    bottom: 5%;
+    
+    
 }
 
 .chat-input {

@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "@auth0/auth0-react": "^2.3.0",
+    "@google/generative-ai": "^0.24.0",
     "auth0-lock": "^13.0.0",
-    "axios": "^1.7.9",
+    "axios": "^1.8.4",
+    "dotenv": "^16.4.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
