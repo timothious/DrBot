@@ -4,7 +4,7 @@ This project provides a simple setup for a chatbot application called **DrBot**,
 
 ## Steps to Run
 
-1. Start the XAMPP server (Apache and MySQL if required)
+1. Start the XAMPP server (Apache and MySQL)
 2. Navigate to the backend directory:
    ```bash
    cd DrBot/Backend
